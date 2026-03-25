@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-somd-red: #C8102E;
+  --color-somd-dark: #0F0F0F;
+  --color-somd-black: #1E1E1E;
+  --color-somd-gray: #F5F5F5;
+  --color-somd-light: #F8F8F8;
+
+  --font-ubuntu: "Ubuntu", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-inter);
+    color: var(--color-somd-black);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-ubuntu);
+  }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
