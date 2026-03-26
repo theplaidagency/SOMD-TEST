@@ -45,6 +45,15 @@ import GivingCard from "@/components/storyblok/GivingCard";
 import ContactPerson from "@/components/storyblok/ContactPerson";
 import BenefitsGrid from "@/components/storyblok/BenefitsGrid";
 import BenefitItem from "@/components/storyblok/BenefitItem";
+import CalendarView from "@/components/storyblok/CalendarView";
+import CalendarEvent from "@/components/storyblok/CalendarEvent";
+import EventDetail from "@/components/storyblok/EventDetail";
+import ScheduleGrid from "@/components/storyblok/ScheduleGrid";
+import ScheduleItem from "@/components/storyblok/ScheduleItem";
+import MerchSection from "@/components/storyblok/MerchSection";
+import VideoSection from "@/components/storyblok/VideoSection";
+import ProgramCards from "@/components/storyblok/ProgramCards";
+import ProgramCard from "@/components/storyblok/ProgramCard";
 
 export const getStoryblokApi = storyblokInit({
   accessToken: process.env.STORYBLOK_API_TOKEN,
@@ -95,6 +104,15 @@ export const getStoryblokApi = storyblokInit({
     contact_person: ContactPerson,
     benefits_grid: BenefitsGrid,
     benefit_item: BenefitItem,
+    calendar_view: CalendarView,
+    calendar_event: CalendarEvent,
+    event_detail: EventDetail,
+    schedule_grid: ScheduleGrid,
+    schedule_item: ScheduleItem,
+    merch_section: MerchSection,
+    video_section: VideoSection,
+    program_cards: ProgramCards,
+    program_card: ProgramCard,
   },
   apiOptions: {
     region: "eu",
