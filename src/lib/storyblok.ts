@@ -17,6 +17,20 @@ import QuoteSection from "@/components/storyblok/QuoteSection";
 import EventsSection from "@/components/storyblok/EventsSection";
 import EventCard from "@/components/storyblok/EventCard";
 import Footer from "@/components/storyblok/Footer";
+import PageHero from "@/components/storyblok/PageHero";
+import NumberedSteps from "@/components/storyblok/NumberedSteps";
+import StepCard from "@/components/storyblok/StepCard";
+import CtaBanner from "@/components/storyblok/CtaBanner";
+import Testimonial from "@/components/storyblok/Testimonial";
+import ImagerySection from "@/components/storyblok/ImagerySection";
+import FaqSection from "@/components/storyblok/FaqSection";
+import FaqItem from "@/components/storyblok/FaqItem";
+import SportsGrid from "@/components/storyblok/SportsGrid";
+import SportCard from "@/components/storyblok/SportCard";
+import AreaPrograms from "@/components/storyblok/AreaPrograms";
+import AreaProgramCard from "@/components/storyblok/AreaProgramCard";
+import SportDetailHero from "@/components/storyblok/SportDetailHero";
+import ContentSection from "@/components/storyblok/ContentSection";
 
 export const getStoryblokApi = storyblokInit({
   accessToken: process.env.STORYBLOK_API_TOKEN,
@@ -39,6 +53,20 @@ export const getStoryblokApi = storyblokInit({
     events_section: EventsSection,
     event_card: EventCard,
     footer: Footer,
+    page_hero: PageHero,
+    numbered_steps: NumberedSteps,
+    step_card: StepCard,
+    cta_banner: CtaBanner,
+    testimonial: Testimonial,
+    imagery_section: ImagerySection,
+    faq_section: FaqSection,
+    faq_item: FaqItem,
+    sports_grid: SportsGrid,
+    sport_card: SportCard,
+    area_programs: AreaPrograms,
+    area_program_card: AreaProgramCard,
+    sport_detail_hero: SportDetailHero,
+    content_section: ContentSection,
   },
   apiOptions: {
     region: "eu",
