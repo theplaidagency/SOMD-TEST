@@ -31,6 +31,20 @@ import AreaPrograms from "@/components/storyblok/AreaPrograms";
 import AreaProgramCard from "@/components/storyblok/AreaProgramCard";
 import SportDetailHero from "@/components/storyblok/SportDetailHero";
 import ContentSection from "@/components/storyblok/ContentSection";
+import PeopleGrid from "@/components/storyblok/PeopleGrid";
+import PersonCard from "@/components/storyblok/PersonCard";
+import ContactSection from "@/components/storyblok/ContactSection";
+import SocialGrid from "@/components/storyblok/SocialGrid";
+import SocialCard from "@/components/storyblok/SocialCard";
+import NewsletterSignup from "@/components/storyblok/NewsletterSignup";
+import StoryArticle from "@/components/storyblok/StoryArticle";
+import StoriesGrid from "@/components/storyblok/StoriesGrid";
+import StoryCard from "@/components/storyblok/StoryCard";
+import GivingGrid from "@/components/storyblok/GivingGrid";
+import GivingCard from "@/components/storyblok/GivingCard";
+import ContactPerson from "@/components/storyblok/ContactPerson";
+import BenefitsGrid from "@/components/storyblok/BenefitsGrid";
+import BenefitItem from "@/components/storyblok/BenefitItem";
 
 export const getStoryblokApi = storyblokInit({
   accessToken: process.env.STORYBLOK_API_TOKEN,
@@ -67,6 +81,20 @@ export const getStoryblokApi = storyblokInit({
     area_program_card: AreaProgramCard,
     sport_detail_hero: SportDetailHero,
     content_section: ContentSection,
+    people_grid: PeopleGrid,
+    person_card: PersonCard,
+    contact_section: ContactSection,
+    social_grid: SocialGrid,
+    social_card: SocialCard,
+    newsletter_signup: NewsletterSignup,
+    story_article: StoryArticle,
+    stories_grid: StoriesGrid,
+    story_card: StoryCard,
+    giving_grid: GivingGrid,
+    giving_card: GivingCard,
+    contact_person: ContactPerson,
+    benefits_grid: BenefitsGrid,
+    benefit_item: BenefitItem,
   },
   apiOptions: {
     region: "eu",
