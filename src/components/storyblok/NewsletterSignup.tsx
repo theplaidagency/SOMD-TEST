@@ -11,7 +11,7 @@ export default function NewsletterSignup({ blok }: { blok: any }) {
         )}
         <form
           className="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto"
-          onSubmit={(e) => e.preventDefault()}
+          action="#"
         >
           <input
             type="email"

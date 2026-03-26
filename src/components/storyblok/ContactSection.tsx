@@ -71,7 +71,7 @@ export default function ContactSection({ blok }: { blok: any }) {
               className="w-full rounded-lg mb-8 object-cover max-h-64"
             />
           )}
-          <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
+          <form className="space-y-4" action="#">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <label className="font-inter text-sm font-medium text-gray-700 block mb-1">Name</label>
